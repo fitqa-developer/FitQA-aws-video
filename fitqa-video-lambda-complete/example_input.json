@@ -1,0 +1,95 @@
+{
+  "version": "0",
+  "id": "36918bff-b8b7-2c10-3621-414fed6b6224",
+  "detail-type": "MediaConvert Job State Change",
+  "source": "aws.mediaconvert",
+  "account": "349415135410",
+  "time": "2022-04-29T13:26:41Z",
+  "region": "ap-northeast-2",
+  "resources": [
+    "arn:aws:mediaconvert:ap-northeast-2:349415135410:jobs/1651238791123-jdxjfb"
+  ],
+  "detail": {
+    "timestamp": 1651238801312,
+    "accountId": "349415135410",
+    "queue": "arn:aws:mediaconvert:ap-northeast-2:349415135410:queues/Default",
+    "jobId": "1651238791123-jdxjfb",
+    "status": "COMPLETE",
+    "userMetadata": {
+      "assetID": "770fdc7b-3f6f-4a19-b0a3-f0f882a3fcd2",
+      "application": "VOD",
+      "input": "s3://fitqa-video-source/BhKy8uQZPh4Q7x2aEPyH",
+      "settings": "Default"
+    },
+    "outputGroupDetails": [
+      {
+        "outputDetails": [
+          {
+            "outputFilePaths": [
+              "s3://fitqa-video-dest/BhKy8uQZPh4Q7x2aEPyH/Default/HLS/BhKy8uQZPh4Q7x2aEPyH_360.m3u8"
+            ],
+            "durationInMs": 7540,
+            "videoDetails": {
+              "widthInPx": 640,
+              "heightInPx": 360
+            }
+          },
+          {
+            "outputFilePaths": [
+              "s3://fitqa-video-dest/BhKy8uQZPh4Q7x2aEPyH/Default/HLS/BhKy8uQZPh4Q7x2aEPyH_540.m3u8"
+            ],
+            "durationInMs": 7540,
+            "videoDetails": {
+              "widthInPx": 960,
+              "heightInPx": 540
+            }
+          },
+          {
+            "outputFilePaths": [
+              "s3://fitqa-video-dest/BhKy8uQZPh4Q7x2aEPyH/Default/HLS/BhKy8uQZPh4Q7x2aEPyH_720.m3u8"
+            ],
+            "durationInMs": 7540,
+            "videoDetails": {
+              "widthInPx": 1280,
+              "heightInPx": 720
+            }
+          }
+        ],
+        "playlistFilePaths": [
+          "s3://fitqa-video-dest/BhKy8uQZPh4Q7x2aEPyH/Default/HLS/BhKy8uQZPh4Q7x2aEPyH.m3u8"
+        ],
+        "type": "HLS_GROUP"
+      },
+      {
+        "outputDetails": [
+          {
+            "outputFilePaths": [
+              "s3://fitqa-video-dest/BhKy8uQZPh4Q7x2aEPyH/Default/MP4/BhKy8uQZPh4Q7x2aEPyH.mp4"
+            ],
+            "durationInMs": 7540,
+            "videoDetails": {
+              "widthInPx": 1280,
+              "heightInPx": 720
+            }
+          }
+        ],
+        "type": "FILE_GROUP"
+      },
+      {
+        "outputDetails": [
+          {
+            "outputFilePaths": [
+              "s3://fitqa-video-dest/BhKy8uQZPh4Q7x2aEPyH/Default/Thumbnails/BhKy8uQZPh4Q7x2aEPyH.0000001.jpg"
+            ],
+            "durationInMs": 10000,
+            "videoDetails": {
+              "widthInPx": 1280,
+              "heightInPx": 720
+            }
+          }
+        ],
+        "type": "FILE_GROUP"
+      }
+    ]
+  }
+}
