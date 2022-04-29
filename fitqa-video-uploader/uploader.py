@@ -21,17 +21,18 @@ def lambda_handler(event, context):
   video_name = random_character_with_prefix("")
   params = parse_into_field_storage(event)
 
+  resp_body = {'key': video_name}
+
   try:
     video_file = BytesIO(params['video'][0])
     upload_file(video_file, destinationBucket, video_name)
   except KeyError:
     status_code = 400
+    resp_body = {'message': 'video parameter not found.'}
 
   return {
     "statusCode": status_code,
-    "body": json.dumps({
-      'key': video_name,
-    })
+    "body": json.dumps(resp_body)
   }
 
 
