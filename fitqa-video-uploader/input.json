@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "routeKey": "PUT /video",
+  "rawPath": "/video",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br",
+    "content-length": "282",
+    "content-type": "multipart/form-data; boundary=--------------------------460418962039247201878333",
+    "host": "eau2fcp7hh.execute-api.ap-northeast-2.amazonaws.com",
+    "postman-token": "a45411c8-2710-485c-95a1-394cd8aacb51",
+    "user-agent": "PostmanRuntime/7.29.0",
+    "x-amzn-trace-id": "Root=1-62690c1a-1e47710f750f4faf35d5342a",
+    "x-forwarded-for": "118.220.102.116",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "requestContext": {
+    "accountId": "349415135410",
+    "apiId": "eau2fcp7hh",
+    "domainName": "eau2fcp7hh.execute-api.ap-northeast-2.amazonaws.com",
+    "domainPrefix": "eau2fcp7hh",
+    "http": {
+      "method": "PUT",
+      "path": "/video",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "118.220.102.116",
+      "userAgent": "PostmanRuntime/7.29.0"
+    },
+    "requestId": "RO7UMjy7IE0EJ8Q=",
+    "routeKey": "PUT /video",
+    "stage": "$default",
+    "time": "27/Apr/2022:09:25:46 +0000",
+    "timeEpoch": 1651051546694
+  },
+  "body": "LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTQ2MDQxODk2MjAzOTI0NzIwMTg3ODMzMw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJ2aWRlbyINCg0KMWEyYjNjDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tNDYwNDE4OTYyMDM5MjQ3MjAxODc4MzMzDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Im5hbWUiDQoNCmJ1dHRlcmZseS5tcDQNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS00NjA0MTg5NjIwMzkyNDcyMDE4NzgzMzMtLQ0K",
+  "isBase64Encoded": true
+}
